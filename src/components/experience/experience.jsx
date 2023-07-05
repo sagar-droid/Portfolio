@@ -53,29 +53,13 @@ function experience() {
           <h3>Backend Development</h3>
           <div className="experience_content">
             <article className="experience_details">
-              <div>
-                <h4>Python</h4>
-                <small className="text-light">Intermediate</small>
-              </div>
-            </article>
-            <article>
-              <div>
-                <h4>MongoDB</h4>
-                <small className="text-light">Intermediate</small>
-              </div>
-            </article>
-            <article>
-              <div>
-                <h4>SQL</h4>
-                <small className="text-light">Beginner</small>
-              </div>
-            </article>
-            <article>
-              <div>
-                {" "}
-                <h4>JS</h4>
-                <small className="text-light">Beginner</small>
-              </div>
+              <article>
+                <div>
+                  {" "}
+                  <h4>Node.JS</h4>
+                  <small className="text-light">Beginner</small>
+                </div>
+              </article>
             </article>
           </div>
         </div>

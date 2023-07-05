@@ -1,18 +1,20 @@
 import React from "react";
 import Img from "../../assets/shoes.jpg";
+import todo from "../../assets/todolist.png";
+import blog from "../../assets/blogpost.png";
 import "./portfolio.css";
 const data = [
   {
     id: 1,
-    image: Img,
-    title: "Project image",
-    github: "https://github.com",
+    image: todo,
+    title: "Todo List",
+    github: "https://github.com/sagar-droid/Todolist",
   },
   {
     id: 2,
-    image: Img,
-    title: "Project image",
-    github: "https://github.com",
+    image: blog,
+    title: "Blogpost",
+    github: "https://github.com/sagar-droid/SinglePageApplication",
   },
   {
     id: 3,
@@ -32,7 +34,7 @@ function portfolio() {
           return (
             <article key={id} className="portfolio_item">
               <div className="portfolio_item_image">
-                <img src={image} alt={title} />
+                <img className="item_image" src={image} alt={title} />
               </div>
               <h3>{title}</h3>
               <a href={github} className="btn" target="_blank">

@@ -22,3 +22,9 @@
 .portfolio_item h3{
     margin: 1.2rem 0 2rem;
 }
+.item_image{
+    width: 100%;
+    height: 20rem;
+    object-fit: cover;
+
+}
