@@ -20,7 +20,7 @@ const data = [
     id: 3,
     image: ecommerce,
     title: "Ecommerce",
-    github: "https://github.comhttps://github.com/sagar-droid/ecommerce",
+    github: "https://github.com/sagar-droid/ecommerce",
   },
 ];
 
