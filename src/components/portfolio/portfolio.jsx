@@ -1,5 +1,5 @@
 import React from "react";
-import Img from "../../assets/shoes.jpg";
+import ecommerce from "../../assets/shoes.jpg";
 import todo from "../../assets/todolist.png";
 import blog from "../../assets/blogpost.png";
 import "./portfolio.css";
@@ -18,9 +18,9 @@ const data = [
   },
   {
     id: 3,
-    image: Img,
-    title: "Project image",
-    github: "https://github.com",
+    image: ecommerce,
+    title: "Ecommerce",
+    github: "https://github.comhttps://github.com/sagar-droid/ecommerce",
   },
 ];
 
